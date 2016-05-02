@@ -157,7 +157,7 @@ public class BlockMultiblockGlass extends BlockContainer {
 		}
 
 		// If the player's hands are empty and they rightclick on a multiblock, they get a 
-		// multiblock-debugging message if the machine is not assembled.
+		// multiblock-debugging message if the machine is not assembled. Very Op Op Multiblock m9
 		if(!world.isRemote && player.getCurrentEquippedItem() == null) {
 			TileEntity te = world.getTileEntity(x, y, z);
 			if(te instanceof IMultiblockPart) {
